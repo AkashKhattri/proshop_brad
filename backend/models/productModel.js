@@ -1,4 +1,3 @@
-import { time } from 'console';
 import mongoose from 'mongoose';
 const reviewSchema = mongoose.Schema(
   {
@@ -73,6 +72,6 @@ const productSchema = mongoose.Schema(
   }
 );
 
-const Product = moongoose.model('Product', productSchema);
+const Product = mongoose.model('Product', productSchema);
 
 export default Product;
