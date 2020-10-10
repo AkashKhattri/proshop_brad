@@ -6,11 +6,12 @@ node_modules/
 /.pnp
 .pnp.js
 
+
 # testing
 /coverage
 
 # production
-/build
+/frontend/build
 
 # misc
 .DS_Store
@@ -19,6 +20,7 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+/backend/seeder
 
 npm-debug.log*
 yarn-debug.log*
